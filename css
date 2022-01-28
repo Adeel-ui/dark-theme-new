@@ -1,0 +1,38 @@
+
+
+:root {
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+
+}
+
+.dark-theme {
+    --primary-color: #000106;
+    --secondary-color: #fff;
+
+}
+.hero {
+    background: var(--primary-color);
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
+}
+.navbar {
+    background: var(--primary-color);
+}
+
+h1 {
+    color: #000;
+}
+p {
+    color: #000;
+}
+
+h1 {
+    color: var(--secondary-color);
+}
+p {
+    color: var(--secondary-color);
+}
